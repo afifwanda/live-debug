@@ -89,7 +89,7 @@ module.exports = (sequelize, DataTypes) => {
   )
 
   Member.associate = function(models) {
-    Member.hasMany(models.Loan)
+    Member.hasMany(models.Loan,{foreignKey:'MemberId'})
   };
   return Member;
 };
