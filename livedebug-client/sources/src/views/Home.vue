@@ -1,13 +1,13 @@
 <template>
   <div>
     <!-- Header -->
-    <Header/>
+    <Header></Header>
 
     <!-- Cases in Indonesia -->
-    <Cases/>
+    <Cases></Cases>
 
     <!-- Tips -->
-    <Tips/>
+    <Tips></Tips>
 
   </div>
 </template>
